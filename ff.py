@@ -63,4 +63,4 @@ elif template == '2':
     noun2 = input('Input Noun: ')
     number2 = input('Input Number: ')
     silly = input('Input Silly word: ')
-    
+    print(f"This weekend I am going camping with {name}. I packed my lantern, sleeping bag, and {noun}. I am so {adj} to {verb} in a tent. I am {adj2} we might see a(n) {animal}, I hear they’re kind of dangerous. While we’re camping, we are going to hike, fish, and {verb2}. I have heard that the {color} lake is great for {verb3}. Then we will {adverb} hike through the forest for {number2} {measure}. If I see a {color} {animal2} while hiking, I am going to bring it home as a pet! At night we will tell {number2} {silly} stories and roast {number2} around the campfire!! ")
