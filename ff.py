@@ -1,7 +1,7 @@
 import random
 
 template = input("Pick one of the templates 1->3 \n1 - Hospital\n2 - Camping\n3 - Castle\n")
-if template == 1:
+if template == '1':
     number = input("Input Number: ")
     measure = input("Input Measure of time (ex. seconds, minutes, days etc.): ")
     
@@ -19,7 +19,7 @@ if template == 1:
     adj2 = input("Input another Adjective: ")
 
     noun = input("Input a Noun for the last adjective: ")
-    color = input("Input a Color and a Part of the Body: ")
+    color = input("Input a Color + Part of the Body: ")
     verb = input("Input a Verb: ")
     number2 = input("Input a Number: ")
     
@@ -28,3 +28,11 @@ if template == 1:
         'Toys',
         'Chairs'
     ])
+
+
+    noun3 = input("Input a Noun: ")
+    part2 = input("Input a Part of the body: ")
+    bkfst = input("Input Verb + Noun: ")
+    adj3 = input("Input another Adjective: ")
+    silly = input("Input a Silly Word + Noun: ")
+    print(f"It was about {number} {measure} ago when I arrived at the hospital in a {transport}. The hospital is a/an {adj} place, there are a lot of {adj2} {noun} here. There are nurses here who have {color}. If someone wants to come into my room I told them that they have to {verb} first. I’ve decorated my room with {number2} {decoration}. Today I talked to a doctor and they were wearing a {noun3} on their {part2}. I heard that all doctors {bkfst} every day for breakfast. The most {adj3} thing about being in the hospital is the {silly} ! ")import random
