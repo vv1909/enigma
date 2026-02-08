@@ -35,4 +35,32 @@ if template == '1':
     bkfst = input("Input Verb + Noun: ")
     adj3 = input("Input another Adjective: ")
     silly = input("Input a Silly Word + Noun: ")
-    print(f"It was about {number} {measure} ago when I arrived at the hospital in a {transport}. The hospital is a/an {adj} place, there are a lot of {adj2} {noun} here. There are nurses here who have {color}. If someone wants to come into my room I told them that they have to {verb} first. I’ve decorated my room with {number2} {decoration}. Today I talked to a doctor and they were wearing a {noun3} on their {part2}. I heard that all doctors {bkfst} every day for breakfast. The most {adj3} thing about being in the hospital is the {silly} ! ")import random
+    print(f"It was about {number} {measure} ago when I arrived at the hospital in a {transport}. The hospital is a/an {adj} place, there are a lot of {adj2} {noun} here. There are nurses here who have {color}. If someone wants to come into my room I told them that they have to {verb} first. I’ve decorated my room with {number2} {decoration}. Today I talked to a doctor and they were wearing a {noun3} on their {part2}. I heard that all doctors {bkfst} every day for breakfast. The most {adj3} thing about being in the hospital is the {silly} ! ")
+
+elif template == '2':
+    name = input('Input Name: ')
+    noun = input('Input Noun: ')
+    adj = input('Input Adjective(Feeling): ')
+    verb = input('Input Verb: ')
+    adj2 = input('Input Adjective(Feeling): ')
+
+    animal = input('Input Animal')
+    verb2 = input('Input Verb: ')
+    color = input('Input Color: ')
+    verb3 = input('Input Verb+ing: ')
+
+
+    adverb = input('Input an Adverb (ending in ly): ')
+
+    number = input("Input Number: ")
+    measure = input("Input Measure of time (ex. seconds, minutes, days etc.): ")
+    
+    color2 = random.choice([
+        'red','blue','pink','green','grey','black','yellow','white'
+    ])
+    animal2 = input('Input Animal: ')
+
+    noun2 = input('Input Noun: ')
+    number2 = input('Input Number: ')
+    silly = input('Input Silly word: ')
+    
